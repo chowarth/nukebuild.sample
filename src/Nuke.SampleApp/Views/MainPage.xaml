@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:resx="clr-namespace:Nuke.SampleApp.Resources"
+    xmlns:viewmodels="clr-namespace:Nuke.SampleApp.ViewModels"
+    x:Class="Nuke.SampleApp.Views.MainPage"
+    x:DataType="viewmodels:MainPageViewModel"
+    Title="{x:Static resx:Strings.MainPageTitle}">
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Button
+            Text="Display alert"
+            Command="{Binding DisplayAlertCommand}"/>
+        <Button
+            Text="Go to PageA"
+            Command="{Binding NavigateCommand}"/>
+
+    </StackLayout>
+
+</ContentPage>
