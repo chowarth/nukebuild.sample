@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuke.SampleApp.Tests.Unit",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuke.SampleApp.Tests.Shared", "..\tests\Nuke.SampleApp.Tests.Shared\Nuke.SampleApp.Tests.Shared.csproj", "{1BD401C8-425D-4416-8850-F1A9BB033E6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuke.SampleApp.Mobile.Tests.Unit", "..\tests\Nuke.SampleApp.Mobile.Tests.Unit\Nuke.SampleApp.Mobile.Tests.Unit.csproj", "{DDFB49B5-7533-4310-907C-386D8A4A638A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuke.SampleApp.Module.Tests.Unit", "..\tests\Nuke.SampleApp.Module.Tests.Unit\Nuke.SampleApp.Module.Tests.Unit.csproj", "{DDFB49B5-7533-4310-907C-386D8A4A638A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

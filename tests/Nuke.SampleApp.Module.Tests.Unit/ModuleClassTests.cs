@@ -3,7 +3,7 @@ using Nuke.SampleApp.Module;
 using Nuke.SampleApp.Tests.Shared.TestFixtures;
 using Xunit;
 
-namespace Nuke.SampleApp.Mobile.Tests.Unit
+namespace Nuke.SampleApp.Module.Tests.Unit
 {
     public class ModuleClassTests : BaseTestFixture
     {
